@@ -68,6 +68,8 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+//contoh pull
+
 // imageTemplate is a clone of indexTemplate that provides
 // alternate "sidebar" and "content" templates.
 var imageTemplate = template.Must(template.Must(indexTemplate.Clone()).ParseFiles("image.tmpl"))
